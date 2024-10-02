@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#logo {
+    align-self: center;
+    width: 30em;
+    margin-top: 2vw;
+}
+
+.menu {
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p {
+    color: white;
+    margin-top: 2em;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+}
