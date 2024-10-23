@@ -48,6 +48,15 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+    #logo {
+        display: block;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+
     p {
         margin-left: 5vh;
         margin-right: 5vh;
